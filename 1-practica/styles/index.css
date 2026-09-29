@@ -318,3 +318,20 @@ footer {
     gap: 1.5rem;
   }
 }
+
+/* CTA Button */
+.btn-cta {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: var(--border-radius);
+  transition: background-color var(--transition-duration);
+  margin-top: 1.5rem;
+}
+
+.btn-cta:hover {
+  background-color: #1ebc59;
+}
