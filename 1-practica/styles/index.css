@@ -297,3 +297,24 @@ h1[class="title_section"]{
 .c-secondary {
   color: var(--secondary-text);
 }
+
+/* footer */
+footer {
+  background-color: var(--secondary-background);
+  padding-block: calc(var(--size) * 8);
+  border-top: 2px solid var(--neutral-500);
+  margin-top: 4rem;
+}
+
+.footer-content {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+}
